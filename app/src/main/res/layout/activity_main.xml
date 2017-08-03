@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.savingdata.MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeText"
+        android:text="change"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default" />
+    <EditText
+        android:id="@+id/etPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnGoToSecong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeText"
+        android:text="Go To Second"/>
+    <Button
+        android:id="@+id/btnShareData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeText"
+        android:text="Share Data"/>
+</LinearLayout>
